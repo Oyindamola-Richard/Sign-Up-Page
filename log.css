@@ -1,0 +1,109 @@
+body{
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #D9D6E7;
+}
+.gen-container{
+    max-width: 300px;
+    margin: auto;
+    padding: 10px 40px 40px 40px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 20px 2px rgb(73,73,75,20%);
+}
+.log-container{
+    max-width: 300px;
+    margin: auto;
+    padding: 10px 40px 40px 40px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 20px 2px rgb(73,73,75,20%);
+    margin-top: 130px;
+}
+.head{
+    color: #393939;
+    font-weight: 550;
+    letter-spacing: 2px;
+}
+.sub-head{
+    color: #393939;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+a{
+    color: rgb(138, 32, 138);
+    text-decoration: none;
+}
+.form-con{
+    display: grid;
+    row-gap: 20px;
+}
+input{
+    padding: 10px;
+    color: #393939;
+    border: 1.5px solid rgb(73,73,75,20%);
+    background-color: #FFFFFF;
+    outline: none;
+}
+button{
+    color: #FFFFFF;
+    padding: 10px;
+    background-color: #5552FF;
+    border: none;
+    border-radius: 5px;
+}
+center{
+    max-width: 300px;
+    height: 500px;
+    margin: auto;
+    padding: 10px 40px 40px 40px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 20px 2px rgb(73,73,75,20%);
+}
+.center{
+    max-width: fit-content;
+    height: fit-content;
+    margin: auto;
+    padding: 40px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 20px 2px rgb(73,73,75,20%);
+    color: #393939;
+}
+.search-con{
+    display: grid;
+    row-gap: 20px;
+    margin-top: 50px;
+}
+.checkall{
+    margin-top: 5px;
+}
+.userinfo-con{
+    color: #393939;
+    justify-content: center;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+@media all and (max-width : 480px){
+    .head{
+        font-weight: 550;
+        letter-spacing: 1px;
+    }
+    .form-con{
+        row-gap: 12px;
+    }
+    .gen-container{
+        margin-top: 15px;
+    }
+    .userinfo-con{
+        font-size: 1em;
+    }
+    #show4{
+        max-width: 300px;
+    }
+}
+@media all and (max-width : 770px){
+    .form-con{
+        row-gap: 12px;
+    }
+    .gen-container{
+        margin-top: 30px;
+    }
+}
